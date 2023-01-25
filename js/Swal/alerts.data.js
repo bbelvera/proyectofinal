@@ -36,7 +36,7 @@ const compraRealizada = {
     showConfirmButton: false
 }
 const errorDeCompra = {
-    title: "No hay libros!",
+    title: "No hay velas aún",
     text: "No podemos acreditar tu compra aún",
     icon: "warning",
     timer: 4000,
