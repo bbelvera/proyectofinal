@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Velas | Contacto</title>
+        <link rel="icon" href="/assets/velasicon.png">
+        <link href="/css/main.css" rel="stylesheet">
+
+        <!--===CSS===-->
+        <link rel="stylesheet" href="../css/main.css">
+
+        <!--===jQuery===-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!--===JavaScript===-->
+        <script src="/js/contacto/Contacto.class.js" defer></script>
+        <script src="/js/contacto/functions.js" defer></script>
+        <script src="/js/contacto/contacto.js" defer></script>
+    </head>
+    <body>
+
+        <!--======HEADER======-->
+        <header class="header">
+            <nav class="header__nav">
+                <a href="/index.html" class="header__nav__anchor">
+                    <h2 class="header__nav__anchor__h2" title="Título del Sitio Web">
+                        Velas<span> Aromatizantes</span>
+                    </h2>
+                </a>
+
+                <div> <!-- Secciones -->
+                    <ul class="header__nav__list">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/pages/books.html">Pedido de Velas</a></li>
+                        <li><a href="/pages/e-commerce.html">Velas</a></li>
+                        <li><a href="/pages/contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--======MAIN======-->
+        <main class="main">
+            <form action="#" class="main__form">
+                <h1 class="main__form__title" data-aos="fade-up" data-aos-duration="1000">Contáctanos</h1>
+                <div class="main__form__div" id="contact-container" data-aos="fade-up" data-aos-duration="1600">
+
+                    <label for="nombre">Nombre y Apellido:
+                        <input 
+                        type="text" 
+                        name="nombre" 
+                        id="nombreApellido" 
+                        placeholder="Escribe tu nombre y apellido..." 
+                        required/>
+                    </label>
+
+                    <label for="email">Correo Electronico:
+                        <input 
+                        type="email" 
+                        name="email" 
+                        id="correoElectronico" 
+                        placeholder="Escribe tu correo electronico..."
+                        required/>
+                    </label>
+
+                    <label for="comentarios">Mensaje:
+                        <textarea 
+                        name="comentarios" 
+                        id="comentarios" 
+                        cols="30" 
+                        rows="10"
+                        onkeypress="if(event.keyCode==13){enviarContacto()}"
+                        placeholder="Escribe tu mensaje..."
+                        required></textarea>
+                    </label>
+
+                    <input 
+                    type="button" 
+                    id="button-contact" 
+                    onclick="enviarContacto()"
+                    value="Enviar formulario"
+                    >
+
+                    <div id="div-contact">
+                        <div class="spinner"></div>
+                    </div>
+                    <p class="p-alert">Las casillas estan incompletas!</p>
+
+                </div>
+            </form>
+        </main>
+
+        <!--======FOOTER======-->
+        <footer class="footer">
+            <p class="footer__p">Copyright 2023 - Coder ®</p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

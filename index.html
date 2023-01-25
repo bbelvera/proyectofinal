@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Velas Aromatizantes | Inicio</title>
+        <link rel="icon" href="/assets/velasicon.png">
+        <link href="/css/main.css" rel="stylesheet">
+
+        <!--===CSS===-->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--===jQuery===-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!--===SweetAlert===-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <!--===JavaScript===-->
+        <script src="/js/books/functions.js" defer></script>
+        <script src="/js/books/Libros.class.js" defer></script>
+        <script src="/js/Swal/alerts.data.js" defer></script>
+        <script src="/js/Swal/swal_alerts.js" defer></script>
+        <script src="/js/books/main.js" defer></script>
+    </head>
+    <body>
+
+        <!--======HEADER=======-->
+        <header class="header">
+            <nav class="header__nav">
+                <a href="/index.html" class="header__nav__anchor">
+                    <h2 class="header__nav__anchor__h2" title="Título del Sitio Web">
+                        Velas<span> Aromatizantes</span>
+                    </h2>
+                </a>
+
+                <div> <!-- Secciones -->
+                    <ul class="header__nav__list">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/pages/books.html">Pedido de Velas</a></li>
+                        <li><a href="/pages/e-commerce.html">Velas</a></li>
+                        <li><a href="/pages/contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--======MAIN=======-->
+        <main class="main-index">
+            <div class="hero-section">
+                <h1 data-aos="fade-right" data-aos-duration="1500">
+                     Velas<span> hechas con amor ♥</span>
+                </h1>
+                <img src="/assets/pexels-freestocksorg-140122.webp" alt="Imagen Velas Aromatizantes"  data-aos="fade-left" data-aos-duration="1500">
+            </div>
+            <hr>
+
+            <div class="newsletter-section">
+                <h3>¿Quieres recibir actualizaciones del sitio?</h3>
+
+                <form action="#" class="inputs-newsletter">
+                    <input type="email" id="email-newsletter" class="email-input" placeholder="Escribe tu correo..." required>
+                    <input type="button" id="btn-newsletter" class="btn-input" value="Enviar" onclick="enviarModal()">
+                </form>
+            </div>
+        </main>
+
+        <!--======FOOTER=======-->
+        <footer class="footer">
+            <p class="footer__p">Copyright 2023 - Coder ®</p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

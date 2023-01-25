@@ -1,0 +1,164 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Green",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 30.25,
+      "img": "verde-velaredonda"
+    },
+    {
+      "id": 2,
+      "titulo": "White",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 35.29,
+      "img": "blanco-velaredonda"
+    },
+    {
+      "id": 3,
+      "titulo": "Purple",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 55.79,
+      "img": "violeta-velaredonda"
+    },
+    {
+      "id": 4,
+      "titulo": "Sky blue",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 55.79,
+      "img": "celeste-velaredonda"
+    },
+    {
+      "id": 5,
+      "titulo": "Orange",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 60.49,
+      "img": "naranja-velaredonda"
+    },
+    {
+      "id": 6,
+      "titulo": "Green",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 40.45,
+      "img": "verde-velacuadrada"
+    },
+    {
+      "id": 7,
+      "titulo": "White",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 45.3,
+      "img": "blanca-velacuadrada"
+    },
+    {
+      "id": 8,
+      "titulo": "Sky blue",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 25.49,
+      "img": "celeste-velacuradra"
+    },
+    {
+      "id": 9,
+      "titulo": "Orange",
+      "autor": "Organic",
+      "genero": "Vela Perfumada",
+      "precio": 30.23,
+      "img": "naranja-velacuadrada"
+    },
+    {
+      "id": 10,
+      "titulo": "Difusores Aromas Organic Spa 120 Cc",
+      "autor": "Organic",
+      "genero": "varillas de bambú",
+      "precio": 45.31,
+      "img": "1984-img"
+    },
+    {
+      "id": 11,
+      "titulo": "Velas Tlights Organic Spa X 12 Unidades sky blue",
+      "autor": "Organic",
+      "genero": "velas de noche perfumadas",
+      "precio": 38.79,
+      "img": "valleDeLaCalma"
+    },
+    {
+      "id": 12,
+      "titulo": "Velas Tlights Organic Spa X 12 Unidades purple",
+      "autor": "Organic",
+      "genero": "velas de noche perfumadas",
+      "precio": 38.79,
+      "img": "escapeDross"
+    },
+    {
+      "id": 13,
+      "titulo": "Spray de Tea Tree, Manuca y Rosalina",
+      "autor": "Organic",
+      "genero": "Prevención y Frescura",
+      "precio": 33.45,
+      "img": "historiasDeDivan"
+    },
+    {
+      "id": 14,
+      "titulo": "Velas larga duración sky blue",
+      "autor": "Organic",
+      "genero": "velas redondas",
+      "precio": 36.49,
+      "img": "historiasInconscientes"
+    },
+    {
+      "id": 15,
+      "titulo": "Velas larga duración purple",
+      "autor": "Organic",
+      "genero": "velas redondas",
+      "precio": 50.79,
+      "img": "laVozAusente"
+    },
+    {
+      "id": 16,
+      "titulo": "Velas corazón orange",
+      "autor": "Organic",
+      "genero": "velas de noche perfumadas",
+      "precio": 40.35,
+      "img": "elHobbit"
+    },
+    {
+      "id": 17,
+      "titulo": "Velas corazón red",
+      "autor": "Organic",
+      "genero": "velas de noche perfumadas",
+      "precio": 35.49,
+      "img": "rebelionEnLaGranja"
+    },
+    {
+      "id": 18,
+      "titulo": "Velas larga duración orange",
+      "autor": "Organic",
+      "genero": "velas redondas",
+      "precio": 60.79,
+      "img": "laCupula"
+    },
+    {
+      "id": 19,
+      "titulo": "Velas de día white 2 unidades",
+      "autor": "Organic",
+      "genero": "velas redondas",
+      "precio": 32.45,
+      "img": "mrMercedes"
+    },
+    {
+      "id": 20,
+      "titulo": "Velas de día red 2 unidades",
+      "autor": "Organic",
+      "genero": "velas redondas",
+      "precio": 35.49,
+      "img": "lupin"
+    }
+  ]
+}

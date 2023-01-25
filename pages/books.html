@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Velas Aromatizantes | Pedido</title>
+        <link rel="icon" href="/assets/velasicon.png">
+        <link href="/css/main.css" rel="stylesheet">
+
+        <!--===CSS===-->
+        <link rel="stylesheet" href="../css/main.css">
+
+        <!--===jQuery===-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!--===JavaScript===-->
+        <script src="/js/books/functions.js" defer></script>
+        <script src="/js/books/Libros.class.js" defer></script>
+        <script src="/js/books/main.js" defer></script>
+    </head>
+    <body>
+
+        <!--======HEADER======-->
+        <header class="header">
+            <nav class="header__nav">
+                <a href="/index.html" class="header__nav__anchor">
+                    <h2 class="header__nav__anchor__h2" title="Título del Sitio Web">
+                        Velas<span> Aromatizantes</span>
+                    </h2>
+                </a>
+
+                <div> <!-- Secciones -->
+                    <ul class="header__nav__list">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/pages/books.html">Pedido de Velas</a></li>
+                        <li><a href="/pages/e-commerce.html">Velas</a></li>
+                        <li><a href="/pages/contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--======MAIN======-->
+        <main class="main-books">
+            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                Estamos trabajando para brindarte el mejor aroma
+            </h1>
+            <div>
+                <section data-aos="fade-up" data-aos-duration="1000">
+                    <p>¡Agrega las Velas que desees!</p>
+                    <form action="#">
+                        <label for="titulo">¿Cuál es la vela que mas te llama la atención?
+                            <input type="text" id="nombreLibro" name="titulo" required>
+                        </label>
+            
+                        <label for="genero">¿De que aroma te gustaria que realicemos?
+                            <input type="text" id="generoLibro" name="genero" required>
+                        </label>
+            
+                        <label for="paginas">¿Cuantas velas deseas llevar?
+                            <input type="number" id="paginasLibro" onkeypress="if(event.keyCode==13){botonListo()}" required>
+                        </label>
+        
+                        <div class="buttons">
+                            <input type="reset" value="Limpiar entradas">
+                            <input 
+                            type="button" 
+                            id="boton-listo" 
+                            onclick="botonListo()" 
+                            value="Listo!">
+                        </div>
+                    </form>
+                </section>
+                <section class="section" data-aos="fade-up" data-aos-duration="1000">
+                    <!--Impresion de los libros-->
+                    <p>Tus velas:</p>
+                    <div class="section__div">
+                        <ol class="section__div__list" id="biblioteca"></ol>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!--======FOOTER======-->
+        <footer class="footer">
+            <p class="footer__p">Copyright 2023 - Coder ®</p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

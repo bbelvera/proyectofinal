@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Velas | Aromatizantes</title>
+        <link rel="icon" href="/assets/velasicon.png">
+        <link href="/css/main.css" rel="stylesheet">
+
+        <!--===CSS===-->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!--===SweetAlert===-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+
+        <!--===jQuery===-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+
+        <!--===jQuery Modal===-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" defer />
+
+        <!--===JavaScript====-->
+        <script src="/js/Swal/alerts.data.js" defer></script>
+        <script src="/js/e-commerce/funcionts.js" defer></script>
+        <script src="/js/e-commerce/main.js" defer></script>
+    </head>
+    <body>
+
+        <!--======HEADER=======-->
+        <header class="header">
+            <nav class="header__nav">
+                <a href="/index.html" class="header__nav__anchor">
+                    <h2 class="header__nav__anchor__h2" title="Título del Sitio Web">
+                        Velas<span> Aromatizantes</span>
+                    </h2>
+                </a>
+
+                <div> <!-- Secciones -->
+                    <ul class="header__nav__list">
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/pages/books.html">Pedido de Velas</a></li>
+                        <li><a href="/pages/e-commerce.html">Velas</a></li>
+                        <li><a href="/pages/contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <!--======MAIN=======-->
+        <main class="main_find-book">
+            <section id="libros">
+                <div class="carrito-container">
+                    <div id="search">
+                        <h1>Velas:</h1>
+                        <input id="searchInput" class="search-bar" type="text" placeholder="Aqui para buscar tu vela">
+                    </div>
+                    <a href="#modal" rel="modal:open" class="icon-button">
+                        <img src="/assets/cart2.svg" alt="Carrito Icon">
+                        <span id="notification" class="icon-button__badge"></span>
+                    </a>
+                </div>
+
+
+                <div id="container">
+                    <div id="1" class="div-book"></div>
+                    <img src="/assets/img-velas/1.jpg" alt="Manzana">
+                </div>
+
+            </section>
+        </main>
+
+
+        <!--======FOOTER=======-->
+        <footer class="footer">
+            <p class="footer__p">Copyright 2023 - Coder ®</p>
+        </footer>
+
+        <script src="/js/e-commerce/funcionts.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
+    <!--===Modal===-->
+    <div id="modal" class="modal">
+        <h3>Velas en el carrito</h3>
+        <hr>
+        <table id="reverse-elements">
+            <th></th>
+            <th>Titulo</th>
+            <th>Precio</th>
+            <tbody id="carrito"></tbody>
+        </table>
+    </div>
+
+</html>
